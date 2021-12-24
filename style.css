@@ -10,9 +10,10 @@
 
 body {
     margin: auto;
-    max-width: 80%;
+    max-width: 90%;
     background: url("img/lidl.jpg") no-repeat center center fixed;
     font-size: 150%;
+    font-family: sans-serif ;
 }
 
 .center-article {
@@ -22,12 +23,17 @@ body {
 
 .list {
     margin: 0;
+    font-size: larger;
 }
 
 .list li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .reviews-list li {
     margin-bottom: 20px;
+}
+
+.reviews-list {
+    font-size: larger;
 }
