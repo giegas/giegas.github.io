@@ -1,4 +1,33 @@
-.side-by-side{
+.side-by-side {
     display: flex;
     flex-direction: row;
+}
+
+.vytis-aside {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    margin: auto;
+    max-width: 80%;
+    background: url("img/lidl.jpg") no-repeat center center fixed;
+    font-size: 150%;
+}
+
+.center-article {
+    margin: auto;
+    width: 80%;
+}
+
+.list {
+    margin: 0;
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+.reviews-list li {
+    margin-bottom: 20px;
 }
