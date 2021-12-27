@@ -1,3 +1,15 @@
+body {
+    margin: auto;
+    background: url("img/lidl.jpg") no-repeat center center fixed;
+    font-family: sans-serif;
+    font-size: 150%;
+}
+
+.center-article {
+    margin: auto;
+    width: 90%;
+}
+
 .side-by-side {
     display: flex;
     flex-direction: row;
@@ -6,19 +18,13 @@
 .vytis-aside {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-body {
-    margin: auto;
-    max-width: 90%;
-    background: url("img/lidl.jpg") no-repeat center center fixed;
-    font-size: 150%;
-    font-family: sans-serif ;
-}
-
-.center-article {
-    margin: auto;
-    width: 80%;
+.vytis-div {
+    margin-top: 50px;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .list {
@@ -36,4 +42,90 @@ body {
 
 .reviews-list {
     font-size: larger;
+}
+
+.content-aside {
+    margin-left: 50px;
+}
+
+.content-aside h3 {
+    margin-top: 80px;
+}
+
+.image-section img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.image-section {
+    width: 50%;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.lidl-h1 {
+    text-align: center;
+    color: green;
+    margin: 1.5em 0;
+    line-height: 2.7em;
+}
+
+.lidl-img-div {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.lidl-img-div img {
+    width: 50%;
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 120%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    body {
+        font-size: 100%;
+    }
+
+    .vytis-div {
+        margin-top: 10vh;
+    }
+
+    .vytis-div img {
+        width: 35vw;
+    }
+
+    .side-by-side {
+        flex-direction: column;
+    }
+
+    .image-section {
+        width: 90%;
+        margin: auto;
+    }
+
+    .image-section img {
+        margin-top: 5vh;
+    }
+
+    .content-aside {
+        margin-left: 5vw;
+    }
+
+    .content-aside h3 {
+        margin-top: 10vh;
+    }
+
+    .lidl-img-div img {
+        width: 90%;
+    }
 }
